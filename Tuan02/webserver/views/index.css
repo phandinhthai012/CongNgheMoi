@@ -1,0 +1,41 @@
+/* Định dạng chung cho bảng */
+.dsMonHoc {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Định dạng tiêu đề của bảng */
+.dsMonHoc thead {
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+}
+
+/* Định dạng từng ô trong bảng */
+.dsMonHoc th, .dsMonHoc td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Định dạng các dòng xen kẽ để dễ đọc */
+.dsMonHoc tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Căn giữa nội dung trong cột STT */
+.dsMonHoc td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Căn giữa tiêu đề bảng */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
